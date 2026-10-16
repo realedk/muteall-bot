@@ -4,6 +4,8 @@
 
 **Simple voice moderation for your Discord server.**
 
+**Disclaimer: This bot was made with the help of on-device AI.**
+
 Mute or unmute members in a selected voice channel with one slash command.
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
@@ -45,7 +47,7 @@ Members are excluded from `/muteall` if they:
 
 `/unmuteall` preserves server mutes that existed before this bot muted members. It also leaves members’ own microphone mute settings unchanged.
 
-> Commands affect members present when the operation starts. Members who join afterward are not automatically muted. Members who move out of the selected channel before being processed are skipped.
+> Commands affect members present when the operation starts. Members who join afterward are not automatically muted. Members who move out of the selected channel before being processed are skipped. I may add a feature to mute members that join while the mute is active later idk.
 
 ## 🔑 Permissions
 
